@@ -32,8 +32,8 @@ public class Catalogue extends JFrame implements ActionListener {
             Class.forName("com.mysql.jdbc.Driver");
 
             String url="jdbc:mysql://localhost:8889/javaClass";
-            String user="lacryo_root";
-            String password="Nezri1974";
+            String user="projetJAVA";
+            String password="danannaing3";
             // Create a connection to the database.
             Connection cnx = DriverManager.getConnection(url, user, password);
 
